@@ -1,0 +1,20 @@
+spec_version: "2.1"
+app_id: com.dominicaka.willstation
+version: 1.0.5
+support_arch:
+  - amd64
+  - arm64
+is_docker_app: false
+start_cmd: server/willstation_backend
+port: 8080
+proxy_path: api
+open_type: inner
+tag_types:
+  - utility
+depend_fw_version: 1.13.0.0000
+depend_docker_version: ""
+i18n:
+  en-US:
+    name: Will Station
+    description: A minimalist, local-first offline todo & task-manager for NAS productivity.
+    author: Dominicaka
